@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('fonts/Montserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Medium';
+  src: url('fonts/Montserrat-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('fonts/Montserrat-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat Regular';
+  font-size: 16px;
+  outline: none;
+}
+
+body {
+  background-color: #000;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+  object-fit: cover;
+  margin: auto;
+}
+
+/*Шапка страницы*/
+
+.logo-header {
+  max-height: 200px;
+}
+
+.header-serv {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  background-color: rgb(3, 3, 3);
+}
+
+.header-serv-right {
+  float: right;
+}
+
+.header-serv-left {
+  display: inline-block;
+}
+
+.header-serv-contacts {
+  border: none;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  background-color: transparent;
+}
+
+/*Описание услуги*/
+
+.service-description {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: #000;
+}
+
+.service-description-heading {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.description {
+  margin-top: 20px;
+  color: #fff;
+}
+
+/*Gallery*/
+
+.gallery {
+  display: inline-flex;
+
+}
+
+/*Footer*/
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: #000;
+  font-size: 0;
+  color: #fff;
+}
+
+.footer .container {
+  font-size: 0;
+}
+
+.footer__left {
+  vertical-align: top;
+  display: inline-block;
+  width: 55%;
+}
+
+.footer__right {
+  vertical-align: top;
+  display: inline-block;
+  text-align: right;
+}
+
+.footer__text {
+  width: 100%;
+  display: inline-block;
+}
+
+
+.footer__nav {
+  list-style-type: none;
+}
+
+.footer__nav a {
+  color: #fff;
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 22px;
+}
+
+.footer__mail {
+  display: inline-block;
+  margin-top: 20px;
+  color: #fff;
+}
